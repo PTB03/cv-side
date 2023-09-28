@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Bildekarusell from "../components/Bildekarusell/Bildekarusell";
+import RouletteWheel from "../components/Roulette/Roulette";
+import CaseSimulator from "../components/Roulette/CSGO";
 
 
 const Home = () => {
@@ -16,7 +18,8 @@ const Home = () => {
     return (
         <div>
             <Bildekarusell/>
-            
+            <RouletteWheel/>
+            {/*<CaseSimulator/>*/}
         </div>
     );
 }
