@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-import './Roulette.css';
+
 
 export const Slide = ({ bgColor, rolling, setRolling }) => {
 

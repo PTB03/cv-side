@@ -1,26 +1,20 @@
 import { useLayoutEffect } from "react";
 import { useEffect, useState } from "react";
-import './Roulette.css';
+import styles from "./Roulette.module.css"
 import Slide from "./Slide";
 
 const RouletteWheel = () => {
 
     const [rolling, setRolling] = useState(false)
 
-    const RouletteWheelSlides = [
-        { id: 1, backgroundcolor: "green" },
-        { id: 2, backgroundcolor: "purple" },
-        { id: 3, backgroundcolor: "yellow" },
-        { id: 4, backgroundcolor: "blue", },
-        { id: 5, backgroundcolor: "red" },
-    ]
+   
 
 
 
 
 
-    return (
-
+    return ( <></>
+ /*
         <div className="container">
             <button onClick={() => {setRolling(true)}}></button>
             <div className="wheel">
@@ -37,7 +31,7 @@ const RouletteWheel = () => {
             </div>
 
         </div>
-
+*/
 
 
     );
