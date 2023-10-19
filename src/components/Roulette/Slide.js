@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 export const Slide = ({ bgColor, rolling, setRolling }) => {
 
 
-    const symbols = ["7","#","€"]
+    let symbols = []
 
     console.log(bgColor)
 
